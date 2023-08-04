@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SplashView: View {
     
-    @State private var  isActive: Bool = false
+@State private var  isActive: Bool = false
     
 //    @State private var nextButtonTapped = false
 //        @StateObject private var preferencesManager = PreferencesManager()
