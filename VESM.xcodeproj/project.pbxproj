@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD122DEC2A7BBA23002572E5 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD122DEB2A7BBA23002572E5 /* profile.swift */; };
+		BD122DF02A7BE688002572E5 /* aboutus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD122DEF2A7BE688002572E5 /* aboutus.swift */; };
+		BD26D45B2A7BEE9900147760 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26D45A2A7BEE9900147760 /* ContentView.swift */; };
+		BD26D45D2A7BEEF800147760 /* newToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26D45C2A7BEEF800147760 /* newToDo.swift */; };
+		BD26D45F2A7BEF1E00147760 /* toDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26D45E2A7BEF1E00147760 /* toDoItem.swift */; };
+		BD6AE4AE2A7919320004DD37 /* preferences1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE4AD2A7919320004DD37 /* preferences1.swift */; };
+		BD6AE4B02A791F1E0004DD37 /* preferences2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE4AF2A791F1E0004DD37 /* preferences2.swift */; };
+		BDB705E12A78FB600077C5D9 /* VESMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB705E02A78FB600077C5D9 /* VESMApp.swift */; };
+		BDB705E32A78FB600077C5D9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB705E22A78FB600077C5D9 /* SplashView.swift */; };
+		BDB705E52A78FB620077C5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB705E42A78FB620077C5D9 /* Assets.xcassets */; };
+		BDB705E82A78FB620077C5D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB705E72A78FB620077C5D9 /* Preview Assets.xcassets */; };
+		BDB711E42A794A9B0038DA58 /* preferences3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB711E32A794A9B0038DA58 /* preferences3.swift */; };
+		BDC8B37A2A7A4F3E00CCF618 /* preferences4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC8B3792A7A4F3E00CCF618 /* preferences4.swift */; };
+		BDC8B37E2A7A54EC00CCF618 /* recommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC8B37D2A7A54EC00CCF618 /* recommendations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD122DEB2A7BBA23002572E5 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		BD122DEF2A7BE688002572E5 /* aboutus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutus.swift; sourceTree = "<group>"; };
+		BD26D45A2A7BEE9900147760 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD26D45C2A7BEEF800147760 /* newToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newToDo.swift; sourceTree = "<group>"; };
+		BD26D45E2A7BEF1E00147760 /* toDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoItem.swift; sourceTree = "<group>"; };
+		BD6AE4AD2A7919320004DD37 /* preferences1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preferences1.swift; sourceTree = "<group>"; };
+		BD6AE4AF2A791F1E0004DD37 /* preferences2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preferences2.swift; sourceTree = "<group>"; };
+		BDB705DD2A78FB600077C5D9 /* VESM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VESM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB705E02A78FB600077C5D9 /* VESMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VESMApp.swift; sourceTree = "<group>"; };
+		BDB705E22A78FB600077C5D9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		BDB705E42A78FB620077C5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB705E72A78FB620077C5D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDB711E32A794A9B0038DA58 /* preferences3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preferences3.swift; sourceTree = "<group>"; };
+		BDC8B3792A7A4F3E00CCF618 /* preferences4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preferences4.swift; sourceTree = "<group>"; };
+		BDC8B37D2A7A54EC00CCF618 /* recommendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recommendations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB705DA2A78FB600077C5D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB705D42A78FB600077C5D9 = {
+			isa = PBXGroup;
+			children = (
+				BDB705DF2A78FB600077C5D9 /* VESM */,
+				BDB705DE2A78FB600077C5D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB705DE2A78FB600077C5D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB705DD2A78FB600077C5D9 /* VESM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB705DF2A78FB600077C5D9 /* VESM */ = {
+			isa = PBXGroup;
+			children = (
+				BDB705E02A78FB600077C5D9 /* VESMApp.swift */,
+				BDB705E22A78FB600077C5D9 /* SplashView.swift */,
+				BD6AE4AD2A7919320004DD37 /* preferences1.swift */,
+				BD6AE4AF2A791F1E0004DD37 /* preferences2.swift */,
+				BDB711E32A794A9B0038DA58 /* preferences3.swift */,
+				BDC8B3792A7A4F3E00CCF618 /* preferences4.swift */,
+				BDC8B37D2A7A54EC00CCF618 /* recommendations.swift */,
+				BD122DEB2A7BBA23002572E5 /* profile.swift */,
+				BD122DEF2A7BE688002572E5 /* aboutus.swift */,
+				BD26D45A2A7BEE9900147760 /* ContentView.swift */,
+				BD26D45C2A7BEEF800147760 /* newToDo.swift */,
+				BD26D45E2A7BEF1E00147760 /* toDoItem.swift */,
+				BDB705E42A78FB620077C5D9 /* Assets.xcassets */,
+				BDB705E62A78FB620077C5D9 /* Preview Content */,
+			);
+			path = VESM;
+			sourceTree = "<group>";
+		};
+		BDB705E62A78FB620077C5D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDB705E72A78FB620077C5D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB705DC2A78FB600077C5D9 /* VESM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB705EB2A78FB620077C5D9 /* Build configuration list for PBXNativeTarget "VESM" */;
+			buildPhases = (
+				BDB705D92A78FB600077C5D9 /* Sources */,
+				BDB705DA2A78FB600077C5D9 /* Frameworks */,
+				BDB705DB2A78FB600077C5D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VESM;
+			productName = VESM;
+			productReference = BDB705DD2A78FB600077C5D9 /* VESM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB705D52A78FB600077C5D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BDB705DC2A78FB600077C5D9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BDB705D82A78FB600077C5D9 /* Build configuration list for PBXProject "VESM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB705D42A78FB600077C5D9;
+			productRefGroup = BDB705DE2A78FB600077C5D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB705DC2A78FB600077C5D9 /* VESM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB705DB2A78FB600077C5D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB705E82A78FB620077C5D9 /* Preview Assets.xcassets in Resources */,
+				BDB705E52A78FB620077C5D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB705D92A78FB600077C5D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD122DEC2A7BBA23002572E5 /* profile.swift in Sources */,
+				BD26D45B2A7BEE9900147760 /* ContentView.swift in Sources */,
+				BDB705E32A78FB600077C5D9 /* SplashView.swift in Sources */,
+				BD26D45D2A7BEEF800147760 /* newToDo.swift in Sources */,
+				BDC8B37A2A7A4F3E00CCF618 /* preferences4.swift in Sources */,
+				BD6AE4B02A791F1E0004DD37 /* preferences2.swift in Sources */,
+				BDC8B37E2A7A54EC00CCF618 /* recommendations.swift in Sources */,
+				BD6AE4AE2A7919320004DD37 /* preferences1.swift in Sources */,
+				BD122DF02A7BE688002572E5 /* aboutus.swift in Sources */,
+				BD26D45F2A7BEF1E00147760 /* toDoItem.swift in Sources */,
+				BDB711E42A794A9B0038DA58 /* preferences3.swift in Sources */,
+				BDB705E12A78FB600077C5D9 /* VESMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDB705E92A78FB620077C5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB705EA2A78FB620077C5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB705EC2A78FB620077C5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VESM/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.VESM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB705ED2A78FB620077C5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VESM/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.VESM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB705D82A78FB600077C5D9 /* Build configuration list for PBXProject "VESM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB705E92A78FB620077C5D9 /* Debug */,
+				BDB705EA2A78FB620077C5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB705EB2A78FB620077C5D9 /* Build configuration list for PBXNativeTarget "VESM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB705EC2A78FB620077C5D9 /* Debug */,
+				BDB705ED2A78FB620077C5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB705D52A78FB600077C5D9 /* Project object */;
+}
