@@ -165,7 +165,7 @@ struct recommendations: View {
                                 .padding(.bottom)
                                 .padding(.top)
                             
-                            Text("After middle-aged, divorced Cal befriends successful ladies' man Jacob, he finds it easier to pick up women, but he also begins to understand how he messed up his marriage. Meanwhile, against his judgment, Jacob falls in love with a woman and needs Cal's help to learn how to be faithful.")
+                            Text("After middle-aged, divorced Cal befriends successful ladies' man Jacob, he finds it easier to pick up women, but he also begins to understand how he messed up his marriage. Meanwhile, against his judgment, Jacob falls in love with a woman and needs Cal's help to learn how to be faithful. ")
                                 .font(.system(size: 20))
                                 .fontWeight(.medium)
                                 .padding(.horizontal)
